@@ -11,7 +11,7 @@ SELECT
 	COUNT(*)
 FROM table_name
 GROUP BY id
-HAVIN COUNT(*) > 1 OR id IS NULL
+HAVING COUNT(*) > 1 OR id IS NULL
 
 -- Check for unwanted Spaces (Strings)
 -- Expectation: No Results
